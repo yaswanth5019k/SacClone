@@ -1,0 +1,47 @@
+*{
+   padding: 0;
+   margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar{
+    display: flex;
+ 
+    background: linear-gradient(180deg, black, transparent);
+}
+.nav-bar ul li {
+    list-style: none;    
+}
+
+.nav-bar ul{
+    display: flex;
+    margin-top: 4%;
+    gap: 40px;    
+}
+.bgvideo {
+position: absolute;
+right: 0;
+bottom: 0;
+z-index: -1;
+}
+.saclogo{
+    margin-top: 50px;
+}
+.home {
+    height: 80vh;
+}
+.footer{
+    color: black;
+    background-color: brown;
+}
+.footer h2{
+    text-align: center;
+}
+.home{
+    align-items: center;
+justify-content: center;
+  display: flex;
+  flex-direction: column;
+    color: white;
+    font-size: larger;
+}
